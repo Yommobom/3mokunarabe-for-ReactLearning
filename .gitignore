@@ -1,0 +1,29 @@
+# 依存関係（超巨大フォルダ）
+node_modules/
+
+# プロダクションビルド（公開用に圧縮されたファイル）
+build/
+dist/
+
+# 環境変数（パスワードなどの秘密情報）
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OSの隠しファイル（Macユーザー必須！）
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# エディタの設定ファイル
+.vscode/
+.idea/
