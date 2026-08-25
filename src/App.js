@@ -10,9 +10,7 @@ function Square() {
   //ボタンを用意する
   return(
     //属性とイベントハンドラを設定
-    <button 
-    className="square"
-    onClick={handleClick}>
+    <button className="square" onClick={handleClick}>
       {value}
     </button>
   );
